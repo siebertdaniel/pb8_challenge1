@@ -1,0 +1,215 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2024-09-04T12:44:47.853Z" version="22.1.22" etag="dTH3XVGuv0NF2Cln1Tro" type="embed">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1007" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="geExPER-WmypXbHfCpLN-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-65" target="geExPER-WmypXbHfCpLN-98" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-65" value="Studio" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="105" y="10" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-66" value="main()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-65" vertex="1">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-67" value="Interface&lt;div style=&quot;font-size: 12px;&quot;&gt;AbstractMediaFactory&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="296" y="210" width="256" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-68" value="&lt;div&gt;create_movie(): Movie&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-67" vertex="1">
+          <mxGeometry y="40" width="256" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-69" value="create_trailer(): Trailer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-67" vertex="1">
+          <mxGeometry y="66" width="256" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-71" target="geExPER-WmypXbHfCpLN-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="451" />
+              <mxPoint x="200" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-71" value="ActionMovie" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="69" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-73" target="geExPER-WmypXbHfCpLN-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="301" y="451" />
+              <mxPoint x="200" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-73" value="DramaMovie" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="246" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-75" target="geExPER-WmypXbHfCpLN-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-75" value="ActionTrailer" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-77" target="geExPER-WmypXbHfCpLN-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-77" value="DramaTrailer" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="670" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-79" target="geExPER-WmypXbHfCpLN-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="590" />
+              <mxPoint x="725" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-79" value="A25Films (DramaFactory)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="65" y="650" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-80" value="createMovie():Movie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-79" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-81" value="createTrailer():Trailer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-79" vertex="1">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-82" value="[...]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-79" vertex="1">
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-85" target="geExPER-WmypXbHfCpLN-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-84" value="&amp;lt;&amp;lt;initiate&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-83" connectable="0" vertex="1">
+          <mxGeometry x="-0.2567" y="-3" relative="1" as="geometry">
+            <mxPoint x="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-85" value="Tigersgate (ActionFactory)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="465" y="650" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-86" value="create_movie():Movie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-85" vertex="1">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-87" value="createTrailer():Trailer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-85" vertex="1">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-88" value="[...]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-85" vertex="1">
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-65" target="geExPER-WmypXbHfCpLN-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-90" value="&amp;lt;&amp;lt;import&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-89" connectable="0" vertex="1">
+          <mxGeometry x="-0.1002" y="-1" relative="1" as="geometry">
+            <mxPoint x="-62" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-66" target="geExPER-WmypXbHfCpLN-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="90" />
+              <mxPoint x="635" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.378;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-79" target="geExPER-WmypXbHfCpLN-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.618;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-85" target="geExPER-WmypXbHfCpLN-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-94" value="&amp;lt;&amp;lt;import&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" connectable="0" vertex="1">
+          <mxGeometry x="295.9995999999999" y="109.99960000000004" as="geometry">
+            <mxPoint x="55" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.512;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-80" target="geExPER-WmypXbHfCpLN-69" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.509;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="geExPER-WmypXbHfCpLN-86" target="geExPER-WmypXbHfCpLN-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-97" value="&amp;lt;&amp;lt;implement&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-96" connectable="0" vertex="1">
+          <mxGeometry x="0.4605" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-98" value="Movie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="180" width="190" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-99" value="+ title: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-100" value="+&amp;nbsp;recorded_scenes&lt;span style=&quot;background-color: initial;&quot;&gt;: array&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-101" value="+ regisseur: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-102" value="+ lead_actor: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-103" value="+ genre: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="156" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-105" value="display(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-98" vertex="1">
+          <mxGeometry y="182" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="add_recorded_scene():&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" vertex="1" parent="geExPER-WmypXbHfCpLN-98">
+          <mxGeometry y="208" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-106" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="geExPER-WmypXbHfCpLN-98" source="geExPER-WmypXbHfCpLN-104" target="geExPER-WmypXbHfCpLN-104" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-330" y="103.60000000000002" as="sourcePoint" />
+            <mxPoint x="-180" y="103.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-107" value="Trailer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;spacingTop=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="240" width="150" height="182" as="geometry">
+            <mxRectangle x="720" y="201" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-108" value="+ movie: movie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-109" value="&lt;div&gt;+ length: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="52" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-110" value="+ Release: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="78" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-111" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="104" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-112" value="get_release_date(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="130" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-113" value="display(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" parent="geExPER-WmypXbHfCpLN-107" vertex="1">
+          <mxGeometry y="156" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="geExPER-WmypXbHfCpLN-114" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="geExPER-WmypXbHfCpLN-107" source="geExPER-WmypXbHfCpLN-111" target="geExPER-WmypXbHfCpLN-111" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-860" y="170" as="sourcePoint" />
+            <mxPoint x="-810" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="&amp;lt;&amp;lt;import&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;textShadow=0;labelBorderColor=none;horizontal=1;spacingTop=0;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="123.99959999999987" y="179.99960000000004" as="geometry">
+            <mxPoint x="55" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

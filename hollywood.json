@@ -1,0 +1,21 @@
+{
+  "Actors":
+  {
+    "ActionActors": ["Bruce Willis", "Lucy Liu", "Michelle Rodriguez","Dwayne Johnson", "Angelina Jolie", "Sylvester Stallone", "Milla Jovovich" ,"Chuck Norris", "Tom Cruise", "Zoe Bell"],
+    "DramaActors": ["Willem Dafoe", "Leonardo DiCaprio", "Jennifer Lawrence", " Eva Mendes", "Kristen Stewart" ,"Matt Damon", "Samuel L. Jackson", "Willem Dafoe", "Jessica Alba", "Nicole Kidman"]
+  },
+  "Regisseurs": {
+    "ActionRegisseurs": ["Peter Jackson", "Quentin Tarantino", "Lana & Lilly Wachowski", "James Cameron", "Anthony & Joe Russo", "Michael Mann", "Richard Marquand", "Joseph Kosinski", "Sam Mendes", "James Mangold"],
+    "DramaRegisseurs": ["Frank Darabont", "Francis Ford Coppola", "Christopher Nolan", "Steven Spielberg", "Sidney Lumet", "Martin Scorsese", "Jonathan Demme", "David Fincher", "Edgar Wright", "Sofia Coppola"]
+  },
+  "Title":{
+    "Action":{
+      "Adjectives": ["Explosive", "Apocalyptic", "Paranormal", "Unforgiving", "Unstoppable", "Vengeful", "Deadly", "Fearless", "Ruthless", "Mysterious"],
+      "Nouns": ["Warrior", "Hunter", "Soldier", "Robot", "Criminal", "Agent", "Cop", "Plan", "Society", "Redemption", "Escape"]
+    },
+    "Drama":{
+      "Adjectives": ["Tragic", "Mournful", "Fateful", "Emotional", "Sorrowful", "Grieving", "Lonely", "Ill-fated", "Desperate", "Disastrous"],
+      "Nouns": ["Grief", "Sorrow", "Pilgrimage", "Prospect", "Heritage", "Mystery", "Decision", "Remorse", "Betrayal", "Surrender"]
+    }
+  }
+}
