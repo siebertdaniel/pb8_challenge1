@@ -8,13 +8,12 @@ from trailer import Trailer, ActionTrailer, DramaTrailer
 class MediaFactory(ABC):
     @classmethod
     def find_production_company(cls, genre):
-        match genre:
-            case "Action":
-                return Tigersgate()
-            case "Drama":
-                return A25Films()
-            case _:
-                return None
+        if genre == "Action":
+            return Tigersgate()
+        elif genre == "Drama":
+            return A25Films()
+        else:
+            return ""
 
     @abstractmethod
     def create_movie(self) -> Movie:
